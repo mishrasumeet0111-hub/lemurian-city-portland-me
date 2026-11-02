@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-portland-me#service",
+      "name": "Website design in Portland, ME",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-portland-me",
+      "description": "Need a website designer in Portland? Custom websites, branding and 3D animation for businesses across the Portland metro.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Portland, Maine",
+          "sameAs": "https://www.wikidata.org/wiki/Q49201"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Cumberland County, Maine"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "York County, Maine"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Sagadahoc County, Maine"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Portland, ME businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Maine",
+          "item": "https://www.lemurianstudios.com/services/web-design-maine"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Portland, ME",
+          "item": "https://www.lemurianstudios.com/services/website-design-portland-me"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I take reservations or bookings through my site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can. We connect the booking or reservation tool you already use, or help you pick one, and put it where visitors look first: the top of the page and the menu."
+          }
+        }
+      ]
+    }
+  ]
+}
